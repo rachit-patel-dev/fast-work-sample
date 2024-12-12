@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=65.5.0", "wheel>=0.37.1"]
+build-backend = "setuptools.build_meta"
+
+[tool.mypy]
+exclude = ['venv', '.venv', 'env', '.env', '.tox']
+mypy_path = "."
+check_untyped_defs = true
+ignore_missing_imports = true
+no_implicit_optional = true
+show_error_codes = true
+strict_equality = true
+warn_redundant_casts = true
+warn_return_any = true
+warn_unreachable = true
+warn_unused_configs = true

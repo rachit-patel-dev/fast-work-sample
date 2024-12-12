@@ -1,0 +1,99 @@
+{
+    "ERROR": "Something went wrong :(",
+    "ACTIVITY_TYPE": {
+        "match": {
+            "en": "match",
+            "sw": "matchen"
+        },
+        "training": {
+            "en": "training",
+            "sw": "träningen"
+        },
+        "tournament": {
+            "en": "tournament",
+            "sw": "turneringen"
+        },
+        "book court": {
+            "en": "booking",
+            "sw": "bokningen"
+        },
+        "activity": {
+            "en": "activity",
+            "sw": "aktiviteten"
+        }
+    },
+    "JOIN_REQUEST": {
+        "accepted": {
+            "en": "accepted",
+            "sw": "accepterat"
+        },
+        "rejected": {
+            "en": "rejected",
+            "sw": "avslagit"
+        },
+        "answered": {
+            "en": "answered",
+            "sw": "besvarats"
+        }
+    },
+    "REMOVE_PLAYER_FROM_ACTIVITY": {
+        "variables": [
+            "CLUB_NAME",
+            "ACTIVITY_TYPE"
+        ],
+        "en": "$CLUB_NAME$ removed you from the $ACTIVITY_TYPE$.",
+        "sw": "$CLUB_NAME$ har tagit bort dig från $ACTIVITY_TYPE$."
+    },
+    "PLAYER_REFUNDED_SUCCESSFULLY": {
+        "variables": [],
+        "en": "You have been refunded.",
+        "sw": "Du har fått återbetalning."
+    },
+    "SPOT_AVAILABLE": {
+        "variables": [
+            "NUMBERS",
+            "ACTIVITY_TYPE"
+        ],
+        "en": "$NUMBERS$ spot(s) avaiable, you can join the $ACTIVITY_TYPE$ now.",
+        "sw": "$NUMBERS$ plats(er) tillgänglig(a), du kan nu gå med i $ACTIVITY_TYPE$."
+    },
+    "UPDATE_JOIN_REQUEST": {
+        "variables": [
+            "CLUB_NAME",
+            "JOIN_REQUEST",
+            "ACTIVITY_TYPE"
+        ],
+        "en": "$CLUB_NAME$ has $JOIN_REQUEST$ your request to join the $ACTIVITY_TYPE$.",
+        "sw": "$CLUB_NAME$ har $JOIN_REQUEST$ din förfrågan att delta i $ACTIVITY_TYPE$."
+    },
+    "ACTIVITY_FULL": {
+        "variables": [
+            "ACTIVITY_TYPE"
+        ],
+        "en": "The $ACTIVITY_TYPE$ is full. Good luck!",
+        "sw": "$ACTIVITY_TYPE$ är full. Lycka till!"
+    },
+    "INVITE_PLAYER": {
+        "variables": [
+            "CLUB_NAME",
+            "ACTIVITY_TYPE"
+        ],
+        "en": "$CLUB_NAME$ invited you to join in the $ACTIVITY_TYPE$",
+        "sw": "$CLUB_NAME$ har bjudit in dig att delta i $ACTIVITY_TYPE$."
+    },
+    "ADD_PLAYER_BOOK_COURT": {
+        "variables": [
+            "CLUB_NAME",
+            "ACTIVITY_TYPE"
+        ],
+        "en": "$CLUB_NAME$ booked a court for you. Good luck!",
+        "sw": "$CLUB_NAME$ har bokat en bana åt dig. Lycka till!"
+    },
+    "CANCELED_MEMBERSHIP": {
+        "variables": [
+            "MEMBERSHIP_NAME"
+        ],
+        "en": "Your membership [$MEMBERSHIP_NAME$] has been cancelled",
+        "sw": "Ditt medlemskap [$MEMBERSHIP_NAME$] har blivit avslutat."
+    }
+}
